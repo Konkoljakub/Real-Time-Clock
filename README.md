@@ -4,9 +4,9 @@ Zaprojektowano i wykonano układ zegara czasu rzeczywistego, wyświetlającego c
 
 Przycisk BTNL - ustawianie godzin.
 Przycisk BTNR - ustawianie minut.
-Przycisk BTNU - przycisk testowy, powodujący przyspieszone (np. 1000 razy) działanie zegara w celu sprawdzenia działania zegara na laboratorium.
+Przycisk BTNU - przycisk testowy, powodujący przyspieszone (np. 1000 razy) działanie zegara w celu sprawdzenia działania zegara.
 Przycisk BTNC - reset asynchroniczny.
-Uwaga: Układ należy zabezpieczyć przed drganiami przycisków (nie dotyczy resetu)! Założyć, że po naciśnięciu przycisku, styki przycisku mogą drgać przez czas do 50 ms.
+Uwaga: Układ zabezpieczono przed drganiami przycisków (nie dotyczy resetu)! Założono, że po naciśnięciu przycisku, styki przycisku mogą drgać przez czas do 50 ms.
 
 Napisano testbench.
 Przed implementacją wykonano symulację układu z wykorzystaniem pliku testbench.
